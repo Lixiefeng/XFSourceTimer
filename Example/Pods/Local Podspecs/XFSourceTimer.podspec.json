@@ -1,0 +1,22 @@
+{
+  "name": "XFSourceTimer",
+  "version": "0.1.0",
+  "summary": "A short description of XFSourceTimer.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Aron1987@126.com/XFSourceTimer",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Aron1987@126.com": "lixiefeng@evergrande.com"
+  },
+  "source": {
+    "git": "https://github.com/Aron1987@126.com/XFSourceTimer.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "XFSourceTimer/Classes/**/*"
+}

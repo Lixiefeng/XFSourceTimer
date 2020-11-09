@@ -1,0 +1,16 @@
+PODS:
+  - XFSourceTimer (0.1.0)
+
+DEPENDENCIES:
+  - XFSourceTimer (from `../`)
+
+EXTERNAL SOURCES:
+  XFSourceTimer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XFSourceTimer: b349b7c386df85cace3ca54f5c7f44171294b961
+
+PODFILE CHECKSUM: dd6913a6266047830374d46b82ab189d8c790d6a
+
+COCOAPODS: 1.6.1
