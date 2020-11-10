@@ -7,39 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		02019DB7E611172A9F7EBE2912BB37D0 /* EXTSafeCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = DAA4425DCF4EC7AD0A01F43336D3B427 /* EXTSafeCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		053C3582D66C5BDFEEDF3A543D7A8CC9 /* Pods-XFSourceTimer_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 625B8E1288122049B632D69261C1BAF7 /* Pods-XFSourceTimer_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C4FD842EB7CA09F56BCDA2D24878603 /* XFSourceTimer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D17B0762E0CC1E6365A5F29B9CBB95 /* XFSourceTimer-dummy.m */; };
 		178A74646E065AD67CFE8F58DEB8FA0D /* Pods-XFSourceTimer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FB5FE553C870BFD8ACDAF11D15F3BCD1 /* Pods-XFSourceTimer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1DA483C4D03B759A35E669CE92BFC607 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		2A8D06022F1BCC3A8EE8EA5014003949 /* EXTKeyPathCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 05BFAC852587CB26B28F04E211D98810 /* EXTKeyPathCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		33680EE19BC5D137EDDE0AF363055B00 /* EXTNil.h in Headers */ = {isa = PBXBuildFile; fileRef = 28E2CFC4128FEB0D9ECFC199A035666C /* EXTNil.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		37BC2710BC0A8EFB314E5DC66F752A8B /* EXTConcreteProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 21F8575564AAC656C777DC0EC6B0B8FE /* EXTConcreteProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33F67C0A1559B098758A1643FD61E6FC /* XFSourceTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = DC0971600EC896AED5D13D25323AFB45 /* XFSourceTimer.m */; };
 		3C6329B82756EDD380C3D744BA62647C /* Pods-XFSourceTimer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7450FB5DFE1BF7B8D1CEBEAB05B43042 /* Pods-XFSourceTimer_Example-dummy.m */; };
-		448EA91903D8792492EBAC14DE2AC18A /* EXTRuntimeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 28E3E3056A3A729F6CCFC60CB3302CD3 /* EXTRuntimeExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4A196054DA603350477E90CB6AE7866D /* EXTSafeCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 868F274F36E4482D4E7EBE5BE65CE0B4 /* EXTSafeCategory.m */; };
-		5EDE8AC1AD85E193D51EDE15AA652531 /* EXTRuntimeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8489902B6F44D313FDE7B00FF23E8580 /* EXTRuntimeExtensions.m */; };
-		6403EB96E21B79B3FE465F5FD1D81BF8 /* EXTScope.m in Sources */ = {isa = PBXBuildFile; fileRef = FC707148B8513CBD9A6F5112775DA68C /* EXTScope.m */; };
-		7388B92F4EBE3B5A46C7485DF8D1C571 /* EXTConcreteProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF3885308AB56BBDC5599551C215413 /* EXTConcreteProtocol.m */; };
-		87354C6F57E39B0BBADD9417C8E349D7 /* EXTNil.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A596B44882DDEF55A47F04EA4F60B4 /* EXTNil.m */; };
-		880583FCF64ECE0F0FB420C4E9FB50CE /* EXTSynthesize.h in Headers */ = {isa = PBXBuildFile; fileRef = AC5D0ADA7FB5D33161A9AF6B84C50CC8 /* EXTSynthesize.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		88AF5D9D02224BBF44224F2D62D05060 /* EXTSelectorChecking.h in Headers */ = {isa = PBXBuildFile; fileRef = 724C66D3C1F10D38BAF60B44E8195170 /* EXTSelectorChecking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F7FA39D7A1DFC8029DAE25AE2F738E3 /* XFSourceTimer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 58970F311ACD01D459451ECD1EAF4AB8 /* XFSourceTimer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E5F30B27BE5C29D60E13A7AAD9AE211 /* XFSourceTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C16ED89DD9EF0A2D59EFFD1DC6B9868 /* XFSourceTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8AA248145571116C9FBE46435C7570E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		947C76FDBB8BBF27938FF73DD7A02361 /* EXTScope.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE668F2D2D8CADAD4B5C67CADD59821 /* EXTScope.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		987957CD2FC67F1302FB0ED553689AF5 /* NSInvocation+EXT.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CF307FA4553EDBFAC1C2EB42B0819F6 /* NSInvocation+EXT.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		99EE125E7338C19694B620E648158256 /* NSInvocation+EXT.m in Sources */ = {isa = PBXBuildFile; fileRef = 00666E1BF46681D5EC5D338A02DD8218 /* NSInvocation+EXT.m */; };
-		9DD714D4EA9C3C97AC90F4AC56907DD2 /* XFSourceTimer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B30C125A7E28DA8BC90E56D56F0F12F3 /* XFSourceTimer-dummy.m */; };
 		A1796EA3C029086A6E7FA485055DD671 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		AD357527F6117931C475D01FF5AB1DA6 /* XFSourceTimer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 65D267CBEB8E00215FE415721A04E39D /* XFSourceTimer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BD2416894A9F3C277575E5CA03273BAD /* EXTCoroutine.h in Headers */ = {isa = PBXBuildFile; fileRef = 7331BCF5F67D0D26CB101B533FF9FE41 /* EXTCoroutine.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C633319B690C2C0A4F9C3E7394F262AA /* EXTobjc.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EDECBBAD7F470EACA9A058BB926ECF0 /* EXTobjc.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C87E05B5272AEE37626077B523DB3AC8 /* EXTADT.h in Headers */ = {isa = PBXBuildFile; fileRef = 30C57B2E4042D82DC91B370342B0031D /* EXTADT.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C984DB89E859D813274472891BF911E0 /* EXTSelectorChecking.m in Sources */ = {isa = PBXBuildFile; fileRef = EF0DBD177C73FB2477D6B18DCECEA1D4 /* EXTSelectorChecking.m */; };
-		CAB2B31E092E06170F57576F43945F9A /* XFSourceTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D49ADF8D7898CFA39276AF58E1862DA /* XFSourceTimer.m */; };
-		CB0A99CBDE46F77B5CEA388C6537F9B3 /* metamacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A5833B05435F671CC2784DF2012D547 /* metamacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D7469E2C15B0702A6FD35E7F070B6E0A /* NSMethodSignature+EXT.m in Sources */ = {isa = PBXBuildFile; fileRef = 22EE72099E5E4912E8BB2C5F060C2D7C /* NSMethodSignature+EXT.m */; };
-		E741E4FD33B22C88BED26717E66BD81A /* XFSourceTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = D3067826FC351BC16CD795BC9D80076A /* XFSourceTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F3E52E63B630E88F874EA6F565F6B4D3 /* NSMethodSignature+EXT.h in Headers */ = {isa = PBXBuildFile; fileRef = C4F37C57153A312BD554A6ECC394B2C9 /* NSMethodSignature+EXT.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F63BB4B52B7EE6364DBF269B3E2BE1A0 /* EXTADT.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B15B5831DFACE94C0C31AA9DDCDAE86 /* EXTADT.m */; };
 		FC4B73F19F176B6CA0DE1CA5247730BE /* Pods-XFSourceTimer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6640AAB4BD2D124F5AFB3FC66900D417 /* Pods-XFSourceTimer_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -61,62 +38,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00666E1BF46681D5EC5D338A02DD8218 /* NSInvocation+EXT.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSInvocation+EXT.m"; sourceTree = "<group>"; };
 		04FDB14F67B5A6DE0DEA8D228623D180 /* XFSourceTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XFSourceTimer.framework; path = XFSourceTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0510F83881623B4C76076268AB19AA95 /* Pods-XFSourceTimer_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XFSourceTimer_Tests-Info.plist"; sourceTree = "<group>"; };
-		0551556DAF88F8E741625EBFFCCF8256 /* XFSourceTimer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XFSourceTimer.xcconfig; sourceTree = "<group>"; };
-		05BFAC852587CB26B28F04E211D98810 /* EXTKeyPathCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EXTKeyPathCoding.h; sourceTree = "<group>"; };
-		079F6D3FADB2B6E6141ABFB7D2C3AD92 /* XFSourceTimer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XFSourceTimer.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		0AF3885308AB56BBDC5599551C215413 /* EXTConcreteProtocol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EXTConcreteProtocol.m; sourceTree = "<group>"; };
-		0EDECBBAD7F470EACA9A058BB926ECF0 /* EXTobjc.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EXTobjc.h; sourceTree = "<group>"; };
-		0EE668F2D2D8CADAD4B5C67CADD59821 /* EXTScope.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EXTScope.h; sourceTree = "<group>"; };
-		1B15B5831DFACE94C0C31AA9DDCDAE86 /* EXTADT.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EXTADT.m; sourceTree = "<group>"; };
+		05FBE4F5EE81966875198A40E15D8D4B /* XFSourceTimer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XFSourceTimer.xcconfig; sourceTree = "<group>"; };
 		1B8D86C23515236F2927902AA56744E9 /* Pods-XFSourceTimer_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XFSourceTimer_Example-Info.plist"; sourceTree = "<group>"; };
-		21F8575564AAC656C777DC0EC6B0B8FE /* EXTConcreteProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EXTConcreteProtocol.h; sourceTree = "<group>"; };
-		22EE72099E5E4912E8BB2C5F060C2D7C /* NSMethodSignature+EXT.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMethodSignature+EXT.m"; sourceTree = "<group>"; };
-		28E2CFC4128FEB0D9ECFC199A035666C /* EXTNil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EXTNil.h; sourceTree = "<group>"; };
-		28E3E3056A3A729F6CCFC60CB3302CD3 /* EXTRuntimeExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EXTRuntimeExtensions.h; sourceTree = "<group>"; };
-		30C57B2E4042D82DC91B370342B0031D /* EXTADT.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EXTADT.h; sourceTree = "<group>"; };
+		2FA2C1F73D6C6E522B36A8FE6F5F499F /* XFSourceTimer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XFSourceTimer.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		33723E86564ABF52FA9AD8D6868D6A26 /* Pods-XFSourceTimer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XFSourceTimer_Example.release.xcconfig"; sourceTree = "<group>"; };
+		374A7C6144849343909920D3BA112255 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		46E286CEE47CD1E093EBA6F70B03B7FA /* Pods-XFSourceTimer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XFSourceTimer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		5532D093629CB591260F4E0D7AD39CAA /* Pods-XFSourceTimer_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XFSourceTimer_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		55D18FDFB71FD1A9CEFC6D6336DED905 /* XFSourceTimer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XFSourceTimer-prefix.pch"; sourceTree = "<group>"; };
+		58970F311ACD01D459451ECD1EAF4AB8 /* XFSourceTimer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XFSourceTimer-umbrella.h"; sourceTree = "<group>"; };
 		58BD5277691063BB979415CB6E00EBB9 /* Pods_XFSourceTimer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XFSourceTimer_Example.framework; path = "Pods-XFSourceTimer_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5CF307FA4553EDBFAC1C2EB42B0819F6 /* NSInvocation+EXT.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSInvocation+EXT.h"; sourceTree = "<group>"; };
+		5A0868E3309C49D7E85F37F79850B3AE /* XFSourceTimer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XFSourceTimer-prefix.pch"; sourceTree = "<group>"; };
 		625B8E1288122049B632D69261C1BAF7 /* Pods-XFSourceTimer_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XFSourceTimer_Tests-umbrella.h"; sourceTree = "<group>"; };
 		628755060507A4946408C813302D4784 /* Pods-XFSourceTimer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XFSourceTimer_Example-frameworks.sh"; sourceTree = "<group>"; };
-		65D267CBEB8E00215FE415721A04E39D /* XFSourceTimer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XFSourceTimer-umbrella.h"; sourceTree = "<group>"; };
 		6640AAB4BD2D124F5AFB3FC66900D417 /* Pods-XFSourceTimer_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XFSourceTimer_Tests-dummy.m"; sourceTree = "<group>"; };
-		724C66D3C1F10D38BAF60B44E8195170 /* EXTSelectorChecking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EXTSelectorChecking.h; sourceTree = "<group>"; };
-		7331BCF5F67D0D26CB101B533FF9FE41 /* EXTCoroutine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EXTCoroutine.h; sourceTree = "<group>"; };
+		6CDBBD293153F0939D7CE67D250FC969 /* XFSourceTimer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XFSourceTimer.modulemap; sourceTree = "<group>"; };
 		7450FB5DFE1BF7B8D1CEBEAB05B43042 /* Pods-XFSourceTimer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XFSourceTimer_Example-dummy.m"; sourceTree = "<group>"; };
-		76A596B44882DDEF55A47F04EA4F60B4 /* EXTNil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EXTNil.m; sourceTree = "<group>"; };
 		797B11FBCC88794ABA8F90B62E090B21 /* Pods_XFSourceTimer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XFSourceTimer_Tests.framework; path = "Pods-XFSourceTimer_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7C85FEF5DB44ED776BFC087C731700B1 /* XFSourceTimer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XFSourceTimer.modulemap; sourceTree = "<group>"; };
-		8489902B6F44D313FDE7B00FF23E8580 /* EXTRuntimeExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EXTRuntimeExtensions.m; sourceTree = "<group>"; };
+		828953FE271D047C1EF5F445EBF75C14 /* XFSourceTimer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XFSourceTimer-Info.plist"; sourceTree = "<group>"; };
 		861C91F6EA19533C4504E9F912BEB74A /* Pods-XFSourceTimer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XFSourceTimer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		868F274F36E4482D4E7EBE5BE65CE0B4 /* EXTSafeCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EXTSafeCategory.m; sourceTree = "<group>"; };
-		9A5833B05435F671CC2784DF2012D547 /* metamacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = metamacros.h; sourceTree = "<group>"; };
-		9BB4CE2B03C2DA23BE922B7CC9FD6F83 /* XFSourceTimer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XFSourceTimer-Info.plist"; sourceTree = "<group>"; };
+		88CF047C0512D99CDA20476D755CE286 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		9BEABAD6956AC24EDB8FD90BB6A3BDF3 /* Pods-XFSourceTimer_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XFSourceTimer_Tests.modulemap"; sourceTree = "<group>"; };
-		9D49ADF8D7898CFA39276AF58E1862DA /* XFSourceTimer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XFSourceTimer.m; path = XFSourceTimer/Classes/XFSourceTimer.m; sourceTree = "<group>"; };
+		9C16ED89DD9EF0A2D59EFFD1DC6B9868 /* XFSourceTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XFSourceTimer.h; path = XFSourceTimer/Classes/XFSourceTimer.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9FF0B2D358B52E5DD452700BA9D0FA3A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		A83DA231DE3BC9C0FB053D4E4BD63C50 /* Pods-XFSourceTimer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XFSourceTimer_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A95B936C31438D143C458F9CC6DC74DC /* Pods-XFSourceTimer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XFSourceTimer_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		AC5D0ADA7FB5D33161A9AF6B84C50CC8 /* EXTSynthesize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EXTSynthesize.h; sourceTree = "<group>"; };
 		ADE8DB5F255C9039F22B54C730FB24A2 /* Pods-XFSourceTimer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XFSourceTimer_Example.modulemap"; sourceTree = "<group>"; };
 		AEDAACD0E23D951AB4C3FE503714ACE8 /* Pods-XFSourceTimer_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XFSourceTimer_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B30C125A7E28DA8BC90E56D56F0F12F3 /* XFSourceTimer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XFSourceTimer-dummy.m"; sourceTree = "<group>"; };
 		B46A7EC284879915E5EE80FF3940E272 /* Pods-XFSourceTimer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XFSourceTimer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C4F37C57153A312BD554A6ECC394B2C9 /* NSMethodSignature+EXT.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMethodSignature+EXT.h"; sourceTree = "<group>"; };
-		D3067826FC351BC16CD795BC9D80076A /* XFSourceTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XFSourceTimer.h; path = XFSourceTimer/Classes/XFSourceTimer.h; sourceTree = "<group>"; };
-		DAA4425DCF4EC7AD0A01F43336D3B427 /* EXTSafeCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EXTSafeCategory.h; sourceTree = "<group>"; };
-		E49AC872E9021C89D4EB4B4DBDCCA49C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		EF0DBD177C73FB2477D6B18DCECEA1D4 /* EXTSelectorChecking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EXTSelectorChecking.m; sourceTree = "<group>"; };
+		C2D17B0762E0CC1E6365A5F29B9CBB95 /* XFSourceTimer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XFSourceTimer-dummy.m"; sourceTree = "<group>"; };
+		DC0971600EC896AED5D13D25323AFB45 /* XFSourceTimer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XFSourceTimer.m; path = XFSourceTimer/Classes/XFSourceTimer.m; sourceTree = "<group>"; };
 		FB5FE553C870BFD8ACDAF11D15F3BCD1 /* Pods-XFSourceTimer_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XFSourceTimer_Example-umbrella.h"; sourceTree = "<group>"; };
-		FC707148B8513CBD9A6F5112775DA68C /* EXTScope.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EXTScope.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,65 +101,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		021BB71D6FD22FCFE3431054CFFD7800 /* Support Files */ = {
+		0E4C2D8788E5842DA50952B41A8A793C /* XFSourceTimer */ = {
 			isa = PBXGroup;
 			children = (
-				7C85FEF5DB44ED776BFC087C731700B1 /* XFSourceTimer.modulemap */,
-				0551556DAF88F8E741625EBFFCCF8256 /* XFSourceTimer.xcconfig */,
-				B30C125A7E28DA8BC90E56D56F0F12F3 /* XFSourceTimer-dummy.m */,
-				9BB4CE2B03C2DA23BE922B7CC9FD6F83 /* XFSourceTimer-Info.plist */,
-				55D18FDFB71FD1A9CEFC6D6336DED905 /* XFSourceTimer-prefix.pch */,
-				65D267CBEB8E00215FE415721A04E39D /* XFSourceTimer-umbrella.h */,
+				9C16ED89DD9EF0A2D59EFFD1DC6B9868 /* XFSourceTimer.h */,
+				DC0971600EC896AED5D13D25323AFB45 /* XFSourceTimer.m */,
+				876425DA08E862BAD3E5C342DE58DA10 /* Pod */,
+				DD8016D96A0B712D754F8CE6FB149440 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/XFSourceTimer";
-			sourceTree = "<group>";
-		};
-		1520EFCB92D58FA857BD094A227F546A /* EX */ = {
-			isa = PBXGroup;
-			children = (
-				0EDECBBAD7F470EACA9A058BB926ECF0 /* EXTobjc.h */,
-				9A5833B05435F671CC2784DF2012D547 /* metamacros.h */,
-				926387761FFDF6F68AB96BD69CE853E9 /* Extensions */,
-				61A56CAEF49451BEAC02DA517F5A6A05 /* Modules */,
-			);
-			name = EX;
-			path = XFSourceTimer/Classes/EX;
-			sourceTree = "<group>";
-		};
-		3C4DBE17EA2A7AA9EF5E8A078637EC03 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				E49AC872E9021C89D4EB4B4DBDCCA49C /* LICENSE */,
-				9FF0B2D358B52E5DD452700BA9D0FA3A /* README.md */,
-				079F6D3FADB2B6E6141ABFB7D2C3AD92 /* XFSourceTimer.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		61A56CAEF49451BEAC02DA517F5A6A05 /* Modules */ = {
-			isa = PBXGroup;
-			children = (
-				30C57B2E4042D82DC91B370342B0031D /* EXTADT.h */,
-				1B15B5831DFACE94C0C31AA9DDCDAE86 /* EXTADT.m */,
-				21F8575564AAC656C777DC0EC6B0B8FE /* EXTConcreteProtocol.h */,
-				0AF3885308AB56BBDC5599551C215413 /* EXTConcreteProtocol.m */,
-				7331BCF5F67D0D26CB101B533FF9FE41 /* EXTCoroutine.h */,
-				05BFAC852587CB26B28F04E211D98810 /* EXTKeyPathCoding.h */,
-				28E2CFC4128FEB0D9ECFC199A035666C /* EXTNil.h */,
-				76A596B44882DDEF55A47F04EA4F60B4 /* EXTNil.m */,
-				28E3E3056A3A729F6CCFC60CB3302CD3 /* EXTRuntimeExtensions.h */,
-				8489902B6F44D313FDE7B00FF23E8580 /* EXTRuntimeExtensions.m */,
-				DAA4425DCF4EC7AD0A01F43336D3B427 /* EXTSafeCategory.h */,
-				868F274F36E4482D4E7EBE5BE65CE0B4 /* EXTSafeCategory.m */,
-				0EE668F2D2D8CADAD4B5C67CADD59821 /* EXTScope.h */,
-				FC707148B8513CBD9A6F5112775DA68C /* EXTScope.m */,
-				724C66D3C1F10D38BAF60B44E8195170 /* EXTSelectorChecking.h */,
-				EF0DBD177C73FB2477D6B18DCECEA1D4 /* EXTSelectorChecking.m */,
-				AC5D0ADA7FB5D33161A9AF6B84C50CC8 /* EXTSynthesize.h */,
-			);
-			name = Modules;
-			path = Modules;
+			name = XFSourceTimer;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		6E9FBAF185CCEF90B005D7F3ED16A344 /* Targets Support Files */ = {
@@ -217,29 +122,22 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		850DFBFBEA85AE2C7F4B45D0A3AE4049 /* XFSourceTimer */ = {
+		7BD18B50FCFA40C46865D5998EA7DE7E /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D3067826FC351BC16CD795BC9D80076A /* XFSourceTimer.h */,
-				9D49ADF8D7898CFA39276AF58E1862DA /* XFSourceTimer.m */,
-				1520EFCB92D58FA857BD094A227F546A /* EX */,
-				3C4DBE17EA2A7AA9EF5E8A078637EC03 /* Pod */,
-				021BB71D6FD22FCFE3431054CFFD7800 /* Support Files */,
+				0E4C2D8788E5842DA50952B41A8A793C /* XFSourceTimer */,
 			);
-			name = XFSourceTimer;
-			path = ../..;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		926387761FFDF6F68AB96BD69CE853E9 /* Extensions */ = {
+		876425DA08E862BAD3E5C342DE58DA10 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				5CF307FA4553EDBFAC1C2EB42B0819F6 /* NSInvocation+EXT.h */,
-				00666E1BF46681D5EC5D338A02DD8218 /* NSInvocation+EXT.m */,
-				C4F37C57153A312BD554A6ECC394B2C9 /* NSMethodSignature+EXT.h */,
-				22EE72099E5E4912E8BB2C5F060C2D7C /* NSMethodSignature+EXT.m */,
+				374A7C6144849343909920D3BA112255 /* LICENSE */,
+				88CF047C0512D99CDA20476D755CE286 /* README.md */,
+				2FA2C1F73D6C6E522B36A8FE6F5F499F /* XFSourceTimer.podspec */,
 			);
-			name = Extensions;
-			path = Extensions;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -258,14 +156,6 @@
 				04FDB14F67B5A6DE0DEA8D228623D180 /* XFSourceTimer.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		CA74A3D6F945FAF6BF228E46A38BC5B2 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				850DFBFBEA85AE2C7F4B45D0A3AE4049 /* XFSourceTimer */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		CD8B3CF20CB934ECB2386A3FD2913F49 /* Pods-XFSourceTimer_Example */ = {
@@ -289,7 +179,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				CA74A3D6F945FAF6BF228E46A38BC5B2 /* Development Pods */,
+				7BD18B50FCFA40C46865D5998EA7DE7E /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				C538E5B5F4236AD372A9A0B845529509 /* Products */,
 				6E9FBAF185CCEF90B005D7F3ED16A344 /* Targets Support Files */,
@@ -302,6 +192,20 @@
 				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD8016D96A0B712D754F8CE6FB149440 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CDBBD293153F0939D7CE67D250FC969 /* XFSourceTimer.modulemap */,
+				05FBE4F5EE81966875198A40E15D8D4B /* XFSourceTimer.xcconfig */,
+				C2D17B0762E0CC1E6365A5F29B9CBB95 /* XFSourceTimer-dummy.m */,
+				828953FE271D047C1EF5F445EBF75C14 /* XFSourceTimer-Info.plist */,
+				5A0868E3309C49D7E85F37F79850B3AE /* XFSourceTimer-prefix.pch */,
+				58970F311ACD01D459451ECD1EAF4AB8 /* XFSourceTimer-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XFSourceTimer";
 			sourceTree = "<group>";
 		};
 		EBA4FAF071FF1C431E0267D1E04B6230 /* Pods-XFSourceTimer_Tests */ = {
@@ -331,34 +235,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		83E589F0B82B5210A8A6F6B95A73D4B3 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C87E05B5272AEE37626077B523DB3AC8 /* EXTADT.h in Headers */,
-				37BC2710BC0A8EFB314E5DC66F752A8B /* EXTConcreteProtocol.h in Headers */,
-				BD2416894A9F3C277575E5CA03273BAD /* EXTCoroutine.h in Headers */,
-				2A8D06022F1BCC3A8EE8EA5014003949 /* EXTKeyPathCoding.h in Headers */,
-				33680EE19BC5D137EDDE0AF363055B00 /* EXTNil.h in Headers */,
-				C633319B690C2C0A4F9C3E7394F262AA /* EXTobjc.h in Headers */,
-				448EA91903D8792492EBAC14DE2AC18A /* EXTRuntimeExtensions.h in Headers */,
-				02019DB7E611172A9F7EBE2912BB37D0 /* EXTSafeCategory.h in Headers */,
-				947C76FDBB8BBF27938FF73DD7A02361 /* EXTScope.h in Headers */,
-				88AF5D9D02224BBF44224F2D62D05060 /* EXTSelectorChecking.h in Headers */,
-				880583FCF64ECE0F0FB420C4E9FB50CE /* EXTSynthesize.h in Headers */,
-				CB0A99CBDE46F77B5CEA388C6537F9B3 /* metamacros.h in Headers */,
-				987957CD2FC67F1302FB0ED553689AF5 /* NSInvocation+EXT.h in Headers */,
-				F3E52E63B630E88F874EA6F565F6B4D3 /* NSMethodSignature+EXT.h in Headers */,
-				AD357527F6117931C475D01FF5AB1DA6 /* XFSourceTimer-umbrella.h in Headers */,
-				E741E4FD33B22C88BED26717E66BD81A /* XFSourceTimer.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		85E8E188B027E25236C54E8F30195AE1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				178A74646E065AD67CFE8F58DEB8FA0D /* Pods-XFSourceTimer_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAD8E9E47B1A6CD231E98AE05F192704 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F7FA39D7A1DFC8029DAE25AE2F738E3 /* XFSourceTimer-umbrella.h in Headers */,
+				7E5F30B27BE5C29D60E13A7AAD9AE211 /* XFSourceTimer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,8 +297,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7FFA7F7469B63014FB62FA1F0B51CF4D /* Build configuration list for PBXNativeTarget "XFSourceTimer" */;
 			buildPhases = (
-				83E589F0B82B5210A8A6F6B95A73D4B3 /* Headers */,
-				C1E68117515F89A96380A2274F98649D /* Sources */,
+				BAD8E9E47B1A6CD231E98AE05F192704 /* Headers */,
+				6EA644F7BB73C331D4545207BD2A85C4 /* Sources */,
 				72882171DDA8B281BB1EADF0BEF2FE1E /* Frameworks */,
 				AF6D077575CB87CBD01C2604408A76E2 /* Resources */,
 			);
@@ -475,6 +365,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		6EA644F7BB73C331D4545207BD2A85C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C4FD842EB7CA09F56BCDA2D24878603 /* XFSourceTimer-dummy.m in Sources */,
+				33F67C0A1559B098758A1643FD61E6FC /* XFSourceTimer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A9A611292BD13890FBB128F5A739E676 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -488,24 +387,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC4B73F19F176B6CA0DE1CA5247730BE /* Pods-XFSourceTimer_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C1E68117515F89A96380A2274F98649D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F63BB4B52B7EE6364DBF269B3E2BE1A0 /* EXTADT.m in Sources */,
-				7388B92F4EBE3B5A46C7485DF8D1C571 /* EXTConcreteProtocol.m in Sources */,
-				87354C6F57E39B0BBADD9417C8E349D7 /* EXTNil.m in Sources */,
-				5EDE8AC1AD85E193D51EDE15AA652531 /* EXTRuntimeExtensions.m in Sources */,
-				4A196054DA603350477E90CB6AE7866D /* EXTSafeCategory.m in Sources */,
-				6403EB96E21B79B3FE465F5FD1D81BF8 /* EXTScope.m in Sources */,
-				C984DB89E859D813274472891BF911E0 /* EXTSelectorChecking.m in Sources */,
-				99EE125E7338C19694B620E648158256 /* NSInvocation+EXT.m in Sources */,
-				D7469E2C15B0702A6FD35E7F070B6E0A /* NSMethodSignature+EXT.m in Sources */,
-				9DD714D4EA9C3C97AC90F4AC56907DD2 /* XFSourceTimer-dummy.m in Sources */,
-				CAB2B31E092E06170F57576F43945F9A /* XFSourceTimer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -663,7 +544,7 @@
 		};
 		6765B6EAA2D81EE30965F0B7B447A663 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0551556DAF88F8E741625EBFFCCF8256 /* XFSourceTimer.xcconfig */;
+			baseConfigurationReference = 05FBE4F5EE81966875198A40E15D8D4B /* XFSourceTimer.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -819,7 +700,7 @@
 		};
 		AD8AEF67FAB4CEE48A72222A19C87936 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0551556DAF88F8E741625EBFFCCF8256 /* XFSourceTimer.xcconfig */;
+			baseConfigurationReference = 05FBE4F5EE81966875198A40E15D8D4B /* XFSourceTimer.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
